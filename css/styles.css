@@ -1,0 +1,127 @@
+@font-face{
+    font-family: "Inconsolata";
+    src: url(/font/Inconsolata.ttf) format("truetype");
+}
+
+.icon{
+    height:50px;
+    width: 50px;
+}
+
+.color-bone{
+    color: #ddddd1;
+}
+
+.main{
+    top: 30%;
+    position: fixed;
+    left: 35%;
+}
+
+.main-text{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 600%;
+    margin-bottom: 5%;
+}
+
+.sub-title{
+    margin-top: 5%;
+    font-size: 300%;
+    margin-bottom: 5%;
+    color: #1f00d8;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: inline-block;
+    cursor: pointer;    
+}
+
+.sub-title:active {
+   transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   transition: 5s;
+}
+
+.copyright{
+    bottom: 1%;
+    position: fixed;
+    left: 47%;
+}
+
+.logos{
+    padding-left: 30%;
+}
+
+.center{
+    text-align: center;
+}
+
+.margin-top-9{
+   margin-top: 9% 
+}
+
+.main-body{
+    background-color: black;
+    text-align:center;
+    font-family: "Inconsolata", sans-serif;
+    padding: 2% 8%;
+}
+.each-project-container{
+    cursor:pointer;
+    border: solid 1px transparent;
+    color: #00eeee;
+    text-decoration: none;
+    padding: 1%;
+    margin: 1% 0 5% 0;
+}
+
+.each-project-container:hover{
+    border: solid 1px #abffff;
+    color: #00eeee;
+    text-decoration: none;
+}
+
+.project-title{
+    font-weight:bold;
+    font-size: 140%;
+    display: inline-block;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+.project-title:hover{
+    border-top: 2px solid #00eeee;
+    border-bottom: 2px solid #00eeee;
+}
+
+.project-screenshot{
+    width: 70%;
+    margin: 5% 0;
+}
+
+.lang-img{
+    height: 12%;
+}
+
+a { position: relative; display: inline-block }
+
+a h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background: black;
+    color: #fff;
+    opacity:0;
+    transition:1s;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a:hover h3 {
+    opacity:1;
+}
