@@ -23,6 +23,13 @@
     margin-right: 10%;
     font-size: 600%;
     margin-bottom: 5%;
+    cursor: pointer;    
+    color: white; 
+}
+
+.main-text:hover{
+    color: white; 
+    text-decoration: none;
 }
 
 .sub-title{
